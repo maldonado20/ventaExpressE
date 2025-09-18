@@ -1,0 +1,17 @@
+
+Integración agregada:
+- Navegación con BottomNavigation: Productos / Clientes / Ventas
+- Fragments: ProductsFragment (RecyclerView + semillado Firebase), ClientsFragment, SalesFragment
+- Modelos y Repositorio Firebase (Realtime Database)
+- Layouts y menú listos
+- Placeholders de imágenes comentados en item_product.xml ("AQUÍ AGREGAR FOTO ...")
+
+Qué debes hacer tú:
+1) Asegúrate de tener google-services.json (ya existe en app/).
+2) En Firebase Console crea Realtime Database y habilita reglas para /users/{uid}.
+3) Copia tus imágenes a res/drawable y usa nombres que coincidan con 'imagenAsset' (sin extensión).
+4) En la pestaña Productos, toca el FAB una vez para cargar la semilla a tu DB.
+5) Si aparece error de dependencias Firebase Database, agrega en app/build.gradle.kts:
+   implementation(platform("com.google.firebase:firebase-bom:33.4.0"))
+   implementation("com.google.firebase:firebase-auth-ktx")
+   implementation("com.google.firebase:firebase-database-ktx")
