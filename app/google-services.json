@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "708507933867",
+    "project_id": "ventaexpresse-b2d11",
+    "storage_bucket": "ventaexpresse-b2d11.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708507933867:android:d4097a76524a93b09cebee",
+        "android_client_info": {
+          "package_name": "com.example.ventaexpresse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMSGXAS4G_kvmx_2UKAKU2mkwNNne2E0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708507933867:android:31b1d3282e3d11239cebee",
+        "android_client_info": {
+          "package_name": "sv.edu.udb.ventaExpress"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMSGXAS4G_kvmx_2UKAKU2mkwNNne2E0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
