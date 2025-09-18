@@ -2,14 +2,14 @@
 agp = "8.8.2"
 kotlin = "1.9.24"
 
-# AndroidX compatibles con AGP 8.8.2 / compileSdk 35
+
 coreKtx = "1.13.1"
 activityKtx = "1.9.2"
 appcompat = "1.7.0"
 material = "1.12.0"
 constraintlayout = "2.1.4"
 
-# Test (estables)
+
 junit = "4.13.2"
 androidxJunit = "1.1.5"
 espresso = "3.5.1"
